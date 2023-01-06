@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2023-01-06 11:23:17
+  duration: 1
+  airport: one
+  airport: one
+
+two:
+  date: 2023-01-06 11:23:17
+  duration: 1
+  airport: two
+  airport: two

@@ -1,0 +1,8 @@
+<h2> All Flights</h2>
+
+<h4> Search by Flights: </h4>
+  <%= form_with url: flights_path, method: :get do |form| %>
+    <%= form.label :from, 'From', class: 'label'%> 
+     <%= select_tag :arrival_airport_id, options_for_select(@airport_options, params[:arrival_airport_id]), include_blank: true, required: true %>
+  <%= form.submit 'Search', class: 'button', id: 'search-button' %>
+  <% end %>
